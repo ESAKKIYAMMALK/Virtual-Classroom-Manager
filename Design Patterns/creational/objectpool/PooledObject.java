@@ -1,8 +1,5 @@
 package creational.objectpool;
 
-import java.util.ArrayList;
-import java.util.List;
-
 class PooledObject {
     private final int id;
     private boolean inUse = false;
